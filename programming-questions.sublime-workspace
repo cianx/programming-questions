@@ -1,0 +1,504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"bl",
+				"blue2"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"disp",
+				"display"
+			],
+			[
+				"t",
+				"target"
+			],
+			[
+				"fo",
+				"font7"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"cab",
+				"cablesShort"
+			],
+			[
+				"cable",
+				"cablesLong"
+			],
+			[
+				"Cab",
+				"CableSet"
+			],
+			[
+				"ro",
+				"rows"
+			],
+			[
+				"co",
+				"cols"
+			],
+			[
+				"pow",
+				"powerRouter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/case-study.html",
+			"settings":
+			{
+				"buffer_size": 22520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Cian/Workspaces/planar-case-studies/conf/Gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3623,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/index.html",
+			"settings":
+			{
+				"buffer_size": 13996,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+			"settings":
+			{
+				"buffer_size": 34644,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 221.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 749.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install Package SCSS",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Cian/Workspaces/planar-case-studies",
+		"/C/Users/Cian/Workspaces/planar-case-studies/conf",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/fpo"
+	],
+	"file_history":
+	[
+		"/C/Users/Cian/Workspaces/planar-case-studies/dist/index.html",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/fpo/component_image-processor.jpg",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/assets/icon_search.png",
+		"/C/Users/Cian/AppData/Roaming/Sublime Text 3/Packages/User/Sass.sublime-settings",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/assets/checkbox-on.png",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+		"/C/Users/Cian/Workspaces/goserv/goserv.go",
+		"/C/Users/Cian/Workspaces/go/values.go",
+		"/C/Users/Cian/Workspaces/planar-routing/tmp/router.js",
+		"/C/Users/Cian/Workspaces/planar-routing/tmp/route.js",
+		"/C/Users/Cian/Workspaces/planar-routing/tmp/readme.txt",
+		"/C/Users/Cian/.ssh/config",
+		"/C/Users/Cian/Workspaces/planar-routing/tmp/cable-sets",
+		"/C/Users/Cian/Downloads/setup-x86_64 (2).exe",
+		"/C/Users/Cian/Workspaces/planar-routing/tmp/route-blocks.js",
+		"/C/Users/Cian/Workspaces/planar-routing/tmp/route-blocks.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width: 478px;",
+			"filter-title-search",
+			"slider-find",
+			";\n",
+			"groups.p",
+			"ComputeRouteDisplaySize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/case-study.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								957
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Cian/Workspaces/planar-case-studies/conf/Gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1188,
+								1188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2860,
+								2860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1298,
+								1298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2788,
+								2788
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1391.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "programming-questions.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
