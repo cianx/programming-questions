@@ -1,6 +1,9 @@
 
 # TODO
 
+PROBLEMS FOR COMPUTER SOLUTION (BOOK)
+- 
+
 Other
 	* Count the number of set bits in a byte/int32 (7 different solutions)
 	* Difference between heap and stack? Write a function to figure out if stack grows up or down.
