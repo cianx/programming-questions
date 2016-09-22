@@ -1,14 +1,7 @@
 # CONWAYS GAME OF LIFE
 
 
-About this Kata
-This was presented as a PreparedKata at XP2005, by Emmanuel Gaillot.
-
-Difficulty - medium
-
-Similar Katas - KataMinesweeper, KataReversi
-
-Problem Description
+## Problem Description
 
 This Kata is about calculating the next generation of Conway's game of life, given any starting position. See http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life for background.
 
@@ -47,3 +40,6 @@ Comments from those who are working on this Kata
 
 Source
 http://codingdojo.org/cgi-bin/index.pl?KataGameOfLife
+
+About this Kata
+This was presented as a PreparedKata at XP2005, by Emmanuel Gaillot.
