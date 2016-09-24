@@ -1,5 +1,6 @@
+/*
 
-
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,10 +20,11 @@ int main(int argc, char**argv) {
 	if(argc < 2
 		|| argc > 2) {
 		printf("Usage: fibbonaci-r <count>");
+		return -1;
 	}
 	count = atoi(argv[1]);
 
-	fibbonaci(0, 1, count);
+	fibbonaci(0, 1, count-1);
 
 	return 0;
 }

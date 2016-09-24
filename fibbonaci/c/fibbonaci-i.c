@@ -20,7 +20,7 @@ int main(int argc, char**argv) {
 
 	for( int i = 0; i < count; ++i) {
 		printf("%d\n", second);
-		int next = first+second;
+		int next = first + second;
 		first = second;
 		second = next;
 	}
