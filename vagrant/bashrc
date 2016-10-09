@@ -1,10 +1,6 @@
 #!/bin/bash
 
 export PATH=~/bin/:$PATH
-export CI=true # shut bower up
-alias npm='npmi'
-alias bower='boweri'
+cd /project
 
-# fix for local proxy issues
-npm config set registry http://registry.npmjs.org/
 
