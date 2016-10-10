@@ -1,9 +1,9 @@
 # STRINGS
 
 ## REORDER
-* Reverse words in a string 
-	(words are separated by one or more spaces). 
-	Now do it in-place. 
+* Reverse words in a string
+	(words are separated by one or more spaces).
+	Now do it in-place.
 	By far the most popular string question!
 * Reverse a string
 ** Reverse a String iteratively and recursively
@@ -41,12 +41,4 @@ Palindrome are those String whose reverse is equal to original.This can be done 
 2) Write a method which will remove any given character from a String? (solution)
 hint : you can remove a given character from String by converting it into character array and then using substring() method for removing them from output string.
 
-
-
-
-
-
-## CUT LINE
-- Regular Expression Match
-* HARD: Print all permutation of String both iterative and Recursive way? (solution)
 

@@ -17,3 +17,4 @@ get_max_profit(stock_prices_yesterday)
 # returns 6 (buying for $5 and selling for $11)
 
 No "shorting"—you must buy before you sell. You may not buy and sell in the same time step (at least 1 minute must pass).
+

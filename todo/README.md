@@ -2,7 +2,7 @@
 # TODO
 
 PROBLEMS FOR COMPUTER SOLUTION (BOOK)
-- 
+-
 
 Other
 	* Count the number of set bits in a byte/int32 (7 different solutions)
@@ -17,7 +17,7 @@ Puzzles
 Note that the ever-popular binary search will give you a worst case of 50 drops. You should be able to do it with under 20.
 	* There are n gas stations positioned along a circular road. Each has a limited supply of gas. You can only drive clockwise around the road. You start with zero gas. Knowing how much gas you need to get from each gas station to the next and how much gas you can get at each station, design an algorithm to find the gas station you need to start at to get all the way around the circle.
 	* Out of 10 coins, one weighs less then the others. You have a scale.
-	* 
+	*
 		* How can you determine which one weighs less in 3 weighs?
 		* Now how would you do it if you didn't know if the odd coin weighs less or more?
 
@@ -27,6 +27,7 @@ Note that the ever-popular binary search will give you a worst case of 50 drops.
 21
 Answer: it's 1211 and the next is 111221
 
+IMplement a Priority Q or Heap
 
 Queues
 	* Implement a Queue class in C++ (which data structure to use internally? why? how to notify of errors?)
