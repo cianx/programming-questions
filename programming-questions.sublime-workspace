@@ -116,34 +116,153 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/case-study.html",
+			"file": "fizz-buzz/py3/fizzbuzz.py",
 			"settings":
 			{
-				"buffer_size": 22520,
+				"buffer_size": 295,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Cian/Workspaces/planar-case-studies/conf/Gulpfile.js",
+			"file": "fizz-buzz/py3/fizzbuzz-2.py",
 			"settings":
 			{
-				"buffer_size": 3623,
+				"buffer_size": 478,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/index.html",
+			"file": "fizz-buzz/rust/fizz-buzz/Cargo.toml",
 			"settings":
 			{
-				"buffer_size": 13996,
+				"buffer_size": 93,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+			"file": "fizz-buzz/rust/fizz-buzz/src/main.rs",
 			"settings":
 			{
-				"buffer_size": 34644,
+				"buffer_size": 643,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fibbonaci/py3/fibbonaci.py",
+			"settings":
+			{
+				"buffer_size": 561,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# CONWAYS GAME OF LIFE\n\n\n## Problem Description\n\nThis Kata is about calculating the next generation of Conway's game of life, given any starting position. See http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life for background.\n\nYou start with a two dimensional grid of cells, where each cell is either alive or dead. In this version of the problem, the grid is finite, and no life can exist off the edges. When calcuating the next generation of the grid, follow these rules:\n\n   1. Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.\n   2. Any live cell with more than three live neighbours dies, as if by overcrowding.\n   3. Any live cell with two or three live neighbours lives on to the next generation.\n   4. Any dead cell with exactly three live neighbours becomes a live cell.\nYou should write a program that can accept an arbitrary grid of cells, and will output a similar grid showing the next generation.\n\nClues\n\nThe input starting position could be a text file that looks like this:\n\nGeneration 1:\n4 8\n........\n....*...\n...**...\n........\nAnd the output could look like this:\n\nGeneration 2:\n4 8\n........\n...**...\n...**...\n........\nThe input format is similar to that in KataMinesweeper, and is easily parsed in most languages.\n\nSuggested Test Cases Make sure you have enough coverage of edge cases - where there are births and deaths at the edge of the grid.\n\nComments from those who are working on this Kata\n\n\nSource\nhttp://codingdojo.org/cgi-bin/index.pl?KataGameOfLife\n\nAbout this Kata\nThis was presented as a PreparedKata at XP2005, by Emmanuel Gaillot.\n\n\n------------------------------\nfile io\nprint\n\n",
+			"file": "life/README.md",
+			"file_size": 1648,
+			"file_write_time": 131205084733822560,
+			"settings":
+			{
+				"buffer_size": 1653,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fibbonaci/c/fibbonaci-i.c",
+			"settings":
+			{
+				"buffer_size": 446,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "greatest-common-denominator/README.md",
+			"settings":
+			{
+				"buffer_size": 87,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "# STRINGS\n\nprint\nformat\nconcatinate \nconvert to int/float\nfind value\nsubstring\nupper case, lower case\ntrim\nsplit\niterate characters\n\n\n## REORDER\n* Reverse words in a string\n\t(words are separated by one or more spaces).\n\tNow do it in-place.\n\tBy far the most popular string question!\n* Reverse a string\n** Reverse a String iteratively and recursively\n\n## WHITESPACE\n* Strip whitespace from a string in-place\n* Remove duplicate chars from a string (\"AAA BBB\" -> \"A B\")\n\tint RemoveDups(char* szStr)\n\n* HARD: Given a single-line text String and a maximum width value, write the function 'String justify(String text, int maxWidth)' that formats the input text using full-justification, i.e., extra spaces on each line are equally distributed between the words; the first word on each line is flushed left and the last word on each line is flushed right\n\n## DUPS\n* Check if a String is composed of all unique characters\n* How to find first non repeated character of a given String? (solution)\n* How to count occurrence of a given character in a String? (solution)\n* Find the first non-repeating character in a string:(\"ABCA\" -> B )\n\tint FindFirstUnique(char* szStr)\n- Remove Duplicates\n\n## PATTERNS\n* Write code to check a String is palindrome or not? (solution)\nPalindrome are those String whose reverse is equal to original.This can be done by using either StringBuffer reverse() method or by technique demonstrated in the solution here.\n\n* Determine if 2 Strings are anagrams\n* Check if String is a palindrome\n* Write a function to find out longest palindrome in a given string?\n* Palindrome Substrings\n* HARD: Find the shortest palindrome in a String\n\n\n## CONVERSION\n* Determine if a String is an int or a double\n\n\n2) Write a method which will remove any given character from a String? (solution)\nhint : you can remove a given character from String by converting it into character array and then using substring() method for removing them from output string.\n\n\n",
+			"file": "strings/README.md",
+			"file_size": 1879,
+			"file_write_time": 131205329527062166,
+			"settings":
+			{
+				"buffer_size": 1958,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n# TODO\n\nCover\n    Types/Control statements\n    String operations\n        print\n        format\n        parse\n        regex\n        split\n        trim\n        convert to int/float\n    data structures\n        hash/tree\n        array\n        list\n        queue\n    classes\n    read/write file\n    logging\n    error handling\n    threads\n        locks\n        consumer producer\n\nPROBLEMS FOR COMPUTER SOLUTION (BOOK)\n\n- Stacks & Queues\n    - Queue Using Stack\n    - Stack Using Queue\n    - Implement a Priority Q or Heap\n\n\t* Implement a stack with push and pop functions\n\t* Implement a queue with queue and dequeue functions\n\t* Find the minimum element in a stack in O(1) time\n\t* Write a function that sorts a stack (bonus: sort the stack in place without extra memory)\n\t* Implement a binary min heap. Turn it into a binary max heap\n\t* HARD: Implement a queue using 2 stacks\n\nProblems\n- N-Queens\n- Boggle\n\n* Use dynamic programming to find the first X prime numbers\n* Implement a function to return a ratio from a double (ie 0.25 -> 1/4). The function will also take a tolerance so if toleran ce is .01 then FindRatio(.24, .01) -> 1/4\nint FindRatio(double val, double tolerance, int& numerator, int& denominator)\n\n* Write a function that prints out the binary form of an int\n\n* Write a multiply function that multiples 2 integers without using *\n\n* HARD: Simulate a 7-Sided Die Using a 5-Sided Die »You have a function rand5() that generates a random integer from 1 to 5. Use it to write a function rand7() that generates a random integer from 1 to 7. rand5() returns each integer with equal probability... keep reading »\n\n* HARD: Given a 2D array of 1s and 0s, count the number of \"islands of 1s\" (e.g. groups of connecting 1s)\n\n\n\n\nConcurrency\n\t* Difference between Mutexes and Critical Sections?\n\t* What are Reentrant Locks? Implement a Reentrant Lock with Mutexes.\n\t* Implement a thread-safe class that will read/write to/from a buffer\nTSBuffer::TSBuffer(int size)\nint TSBuffer::Read(char* buff, int max_size)\nint TSBuffer::Write(char* buff, int size)\n\nDesign Questions\n    * Design a deck of cards class (object/methods/data)\n\nPuzzles\n    * You have 2 supposedly unbreakable light bulbs and a 100-floor building. Using fewest possible drops, determine how much of an impact this type of light bulb can withstand. (i.e. it can withstand a drop from 17th floor, but breaks from the 18th).\nNote that the ever-popular binary search will give you a worst case of 50 drops. You should be able to do it with under 20.\n    * There are n gas stations positioned along a circular road. Each has a limited supply of gas. You can only drive clockwise around the road. You start with zero gas. Knowing how much gas you need to get from each gas station to the next and how much gas you can get at each station, design an algorithm to find the gas station you need to start at to get all the way around the circle.\n    * Out of 10 coins, one weighs less then the others. You have a scale.\n    *\n        * How can you determine which one weighs less in 3 weighs?\n        * Now how would you do it if you didn't know if the odd coin weighs less or more?\n\n    * What is the next line in the following sequence:\n1\n11\n21\nAnswer: it's 1211 and the next is 111221\n\n",
+			"file": "todo/README.md",
+			"file_size": 3284,
+			"file_write_time": 131206261718789729,
+			"settings":
+			{
+				"buffer_size": 3243,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dups/README.md",
+			"settings":
+			{
+				"buffer_size": 2244,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stock-price/README.md",
+			"settings":
+			{
+				"buffer_size": 843,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "# ARRAYS\n\nsearch \n    find n largest\n    find missing\n    find duplicate(s)/dedup\n    find count frequency\n    shuffle the array\n\n    sort\n    \n\n\n\n## FIND\n\t- You are given an array with integers between 1 and 1,000,000. One integer is in the array twice. How can you determine which one? Can you think of a way to do it using little extra memory.\n\t-  You are given an array with integers between 1 and 1,000,000. One integer is missing. How can you determine which one? Can you think of a way to do it while iterating through the array only once. Is overflow a problem in the solution? Why not?\n\t-  In an array 1-100 numbers are stored, one number is missing how do you find it? (solution)\n\t-  In an array 1-100 exactly one number is duplicate how do you find it?\n\t-  In an array 1-100 multiple numbers are duplicates, how do you find it?\n\tOne trick in this programming questions is by using HashMap or Hashtable , we can store number as key and its occurrence as value, if number is already present in Hashtable then increment its value or insert value as 1 and later on print all those numbers whose values are more than one.\n\t- How to find top two maximum number in array? \n-  Find the most frequent integer in an array\n\n\n# DUPS\n\n\n\n## \n\n-  Returns the largest sum of contiguous integers in the array\nExample: if the input is (-10, 2, 3, -2, 0, 5, -15), the largest sum is 8\nint GetLargestContiguousSum(int* anData, int len)\n\t* Implement Shuffle given an array containing a deck of cards and the number of cards. Now make it O(n).\n\t* Return the sum two largest integers in an array\nint SumTwoLargest(int* anData, int size)\n\t* Sum n largest integers in an array of integers where every integer is between 0 and 9\nint SumNLargest(int* anData, int size, int n)\n\n\n\n- Binary Search\n\n\n- Merge Overlapping Intervals\n- Find Smallest Common Number\n- Find Low High Index\n- Optimal Job Selection\n- Move Zeros To Left\n- Rotate Array\n- Search Rotated Array\n- Max in Sliding Window\n\n\n\n-  Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time)\n-  Given 2 integer arrays, determine of the 2nd array is a rotated version of the 1st array. Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}\n-  Find the only element in an array that only occurs once.\n-  Find the common elements of 2 int arrays\n\n\n-  Given two arrays, 1,2,3,4,5 and 2,3,1,0,5 find which number is not present in the second array.\nHere is a quick tip to solve this programming question: put the elements of the second array in the Hashtable and for every element of the first array, check whether it’s present in the hash or not, O/P all those elements from the first array that are not present in the hash table\n- How do you find second highest number in an integer array?\n- How to find all pairs in array of integers whose sum is equal to given number?\n- How to remove duplicate elements from array?\n- How to find largest and smallest number in array? (solution)\n",
+			"file": "arrays/README.md",
+			"file_size": 2884,
+			"file_write_time": 131205084733806561,
+			"settings":
+			{
+				"buffer_size": 2963,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fibbonaci/c/CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 147,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fibbonaci/c/fibbonaci-r.c",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 85,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -187,19 +306,39 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Cian/Workspaces/planar-case-studies",
-		"/C/Users/Cian/Workspaces/planar-case-studies/conf",
-		"/C/Users/Cian/Workspaces/planar-case-studies/src",
-		"/C/Users/Cian/Workspaces/planar-case-studies/src/fpo"
+		"/home/cian/Workspaces/programming-questions",
+		"/home/cian/Workspaces/programming-questions/arrays",
+		"/home/cian/Workspaces/programming-questions/dups",
+		"/home/cian/Workspaces/programming-questions/fibbonaci",
+		"/home/cian/Workspaces/programming-questions/fibbonaci/c",
+		"/home/cian/Workspaces/programming-questions/fibbonaci/py3",
+		"/home/cian/Workspaces/programming-questions/fizz-buzz",
+		"/home/cian/Workspaces/programming-questions/fizz-buzz/py3",
+		"/home/cian/Workspaces/programming-questions/greatest-common-denominator",
+		"/home/cian/Workspaces/programming-questions/life",
+		"/home/cian/Workspaces/programming-questions/roman-numerals",
+		"/home/cian/Workspaces/programming-questions/roman-numerals/rust",
+		"/home/cian/Workspaces/programming-questions/stock-price",
+		"/home/cian/Workspaces/programming-questions/strings",
+		"/home/cian/Workspaces/programming-questions/todo",
+		"/home/cian/Workspaces/programming-questions/vagrant"
 	],
 	"file_history":
 	[
+		"/home/cian/Workspaces/programming-questions/fizz-buzz/README.md",
+		"/home/cian/Workspaces/programming-questions/vagrant/bashrc",
+		"/home/cian/Workspaces/programming-questions/fizz-buzz/py3/fizzbuzz.py",
+		"/home/cian/Workspaces/programming-questions/vagrant/Vagrantfile",
+		"/home/cian/Workspaces/programming-questions/vagrant/provision.sh",
+		"/C/Users/Cian/Workspaces/planar-case-studies/conf/Gulpfile.js",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/case-study.html",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+		"/C/Users/Cian/Workspaces/planar-case-studies/src/index.html",
 		"/C/Users/Cian/Workspaces/planar-case-studies/dist/index.html",
 		"/C/Users/Cian/Workspaces/planar-case-studies/src/fpo/component_image-processor.jpg",
 		"/C/Users/Cian/Workspaces/planar-case-studies/src/assets/icon_search.png",
 		"/C/Users/Cian/AppData/Roaming/Sublime Text 3/Packages/User/Sass.sublime-settings",
 		"/C/Users/Cian/Workspaces/planar-case-studies/src/assets/checkbox-on.png",
-		"/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
 		"/C/Users/Cian/Workspaces/goserv/goserv.go",
 		"/C/Users/Cian/Workspaces/go/values.go",
 		"/C/Users/Cian/Workspaces/planar-routing/tmp/router.js",
@@ -227,6 +366,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"in",
 			"width: 478px;",
 			"filter-title-search",
 			"slider-find",
@@ -250,31 +390,170 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 10,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/case-study.html",
+					"file": "fizz-buzz/py3/fizzbuzz.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22520,
+						"buffer_size": 295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								957,
-								957
+								23,
+								23
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fizz-buzz/py3/fizzbuzz-2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fizz-buzz/rust/fizz-buzz/Cargo.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "fizz-buzz/rust/fizz-buzz/src/main.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "fibbonaci/py3/fibbonaci.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "life/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1652,
+								1652
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -284,27 +563,110 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/Cian/Workspaces/planar-case-studies/conf/Gulpfile.js",
+					"buffer": 6,
+					"file": "fibbonaci/c/fibbonaci-i.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3623,
+						"buffer_size": 446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1188,
-								1188
+								446,
+								446
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/C++/C.sublime-syntax",
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "greatest-common-denominator/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "strings/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "todo/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -314,101 +676,179 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/index.html",
-					"semi_transient": false,
+					"buffer": 10,
+					"file": "dups/README.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 13996,
+						"buffer_size": 2244,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2860,
-								2860
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+					"buffer": 11,
+					"file": "stock-price/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34644,
+						"buffer_size": 843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1298,
-								1298
+								843,
+								843
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "arrays/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1761,
+								1761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "fibbonaci/c/CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "fibbonaci/c/fibbonaci-r.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Cian/Workspaces/planar-case-studies/src/planar-case-studies.scss",
+					"buffer": 15,
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34644,
+						"buffer_size": 85,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2788,
-								2788
+								85,
+								85
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1391.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 12,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -418,7 +858,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -440,7 +880,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.467575305491,
 			1.0
 		],
 		"rows":
